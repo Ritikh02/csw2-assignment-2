@@ -1,3 +1,7 @@
+/*Write a program to create a Student class with members name, rn, and
+total mark. Create an array of student objects and sort it using Bubble
+sort according to its rn.
+Note: Overload compareTo method of Comparable interface. */
 
 class Student implements Comparable<Student> {
     private String name;
