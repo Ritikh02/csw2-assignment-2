@@ -1,3 +1,11 @@
+/*. Write a program to create a Car class with member variables model, color,
+and speed. Add the respective method and constructor to it. Create a
+driver class in that class and create two car objects. Compare the car
+objects according to their speed and print the details of the car that has
+a greater speed.
+Note: Overload compareTo method of Comparable interface. */
+
+
 class Car implements Comparable<Car> {
     private String model;
     private String color;
