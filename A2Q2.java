@@ -1,3 +1,10 @@
+/*Write a program to create a Book class with member variables bookId,
+bookName, and price. Add the respective method and constructor to it.
+Create a driver class in that class and create two book objects. Compare
+the book objects according to their price. Print the details of the book
+objects.
+Note: Overload toString and equals method. */
+
 class Book {
     private int bookId;
     private String bookName;
